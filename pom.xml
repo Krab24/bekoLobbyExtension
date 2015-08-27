@@ -8,10 +8,10 @@
     <artifactId>LobbyRoomExtension</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <sfs-server.jarPath>D:/gameExtension/src/main/resources/sfsLibs/sfs2x.jar</sfs-server.jarPath>
-        <sfs-core.jarPath>D:/gameExtension/src/main/resources/sfsLibs/sfs2x-core.jar</sfs-core.jarPath>
-        <sfs-boot.jarPath>D:/gameExtension/src/main/resources/sfsLibs/boot.jar</sfs-boot.jarPath>
-        <sfs-js.jarPath>D:/gameExtension/src/main/resources/sfsLibs/js.jar</sfs-js.jarPath>
+        <sfs-server.jarPath>${project.basedir}/src/main/resources/sfsLibs/sfs2x.jar</sfs-server.jarPath>
+        <sfs-core.jarPath>${project.basedir}/src/main/resources/sfsLibs/sfs2x-core.jar</sfs-core.jarPath>
+        <sfs-boot.jarPath>${project.basedir}/src/main/resources/sfsLibs/boot.jar</sfs-boot.jarPath>
+        <sfs-js.jarPath>${project.basedir}/src/main/resources/sfsLibs/js.jar</sfs-js.jarPath>
         <smartfox.version>2.9.0</smartfox.version>
         <spring.framework.version>4.0.5.RELEASE</spring.framework.version>
         <hiberate.version>4.1.7.Final</hiberate.version>
